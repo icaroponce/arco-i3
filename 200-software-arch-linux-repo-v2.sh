@@ -57,18 +57,19 @@ sudo pacman -S --noconfirm --needed ristretto
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
+sudo pacman -S --noconfirm --needed qutebrowser
+#sudo pacman -S --noconfirm --needed filezilla
 #sudo pacman -S --noconfirm --needed hexchat
-sudo pacman -S --noconfirm --needed transmission-cli
-sudo pacman -S --noconfirm --needed transmission-gtk
+#sudo pacman -S --noconfirm --needed transmission-cli
+#sudo pacman -S --noconfirm --needed transmission-gtk
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
 
 #sudo pacman -S --noconfirm --needed clementine
 #sudo pacman -S --noconfirm --needed deadbeef
-#sudo pacman -S --noconfirm --needed mpv
+sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
@@ -81,6 +82,7 @@ echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed evolution
+sudo pacman -S --noconfirm --needed zathura
 #sudo pacman -S --noconfirm --needed geary
 #sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
