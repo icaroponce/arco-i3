@@ -27,6 +27,7 @@ sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed thefuck
 sudo pacman -S --noconfirm --needed envrc
+sudo pacman -S --noconfirm --needed ripgrep
 #sudo pacman -S --noconfirm --needed
 
 
